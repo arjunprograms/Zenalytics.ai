@@ -1,5 +1,6 @@
 # Zenalytics.ai - AI Health Analytics Platform
 
+Video link: https://youtu.be/qU_pQWbEn-Q
 <div align="center">
 
 ![Zenalytics Banner](https://github.com/arjunprograms/Zenalytics.ai/raw/main/public/gradient-background.webp)
