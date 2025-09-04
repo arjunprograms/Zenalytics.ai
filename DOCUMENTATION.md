@@ -1,19 +1,19 @@
-# 📚 Zenalytics.ai - Technical Documentation
+# Zenalytics.ai - Technical Documentation
 
 ## Table of Contents
-- [🏗️ Architecture Overview](#architecture-overview)
-- [🔧 API Reference](#api-reference)
-- [🎨 Design System](#design-system)
-- [🤖 AI Integration](#ai-integration)
-- [🔐 Authentication System](#authentication-system)
-- [📊 Data Management](#data-management)
-- [🧪 Testing](#testing)
-- [🚀 Deployment](#deployment)
-- [🔍 Troubleshooting](#troubleshooting)
+- [Architecture Overview](#architecture-overview)
+- [API Reference](#api-reference)
+- [Design System](#design-system)
+- [AI Integration](#ai-integration)
+- [Authentication System](#authentication-system)
+- [Data Management](#data-management)
+- [Testing](#testing)
+- [Deployment](#deployment)
+- [Troubleshooting](#troubleshooting)
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
 ### System Architecture
 
@@ -56,7 +56,7 @@ graph TB
 
 ---
 
-## 🔧 API Reference
+## API Reference
 
 ### Authentication Endpoints
 
@@ -207,7 +207,7 @@ Send message to AI health assistant.
 
 ---
 
-## 🎨 Design System
+## Design System
 
 ### Color Palette
 
@@ -322,7 +322,7 @@ font-family: 'Space Grotesk', system-ui, sans-serif;
 
 ---
 
-## 🤖 AI Integration
+## AI Integration
 
 ### GPT4All Implementation
 
@@ -378,7 +378,7 @@ export function generateAIResponse(query: string, metrics: HealthMetric[], insig
 
 ---
 
-## 🔐 Authentication System
+## Authentication System
 
 ### User Management
 
@@ -431,7 +431,7 @@ export async function loginDemo(): Promise<AuthResponse> {
 
 ---
 
-## 📊 Data Management
+## Data Management
 
 ### Health Data Models
 
@@ -488,7 +488,7 @@ Cache Management ←---------------------------------------------- Analytics
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ### Testing Strategy
 
@@ -551,7 +551,7 @@ npm test:e2e
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Environment Variables
 
@@ -628,7 +628,7 @@ CMD ["npm", "start"]
 
 ---
 
-## 🔍 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -707,7 +707,7 @@ function onRenderCallback(id, phase, actualDuration) {
 
 ---
 
-## 📋 API Client Usage Examples
+## API Client Usage Examples
 
 ### Frontend Integration
 
@@ -745,7 +745,7 @@ try {
 
 ---
 
-## 🎯 Performance Benchmarks
+## Performance Benchmarks
 
 ### Core Web Vitals Targets
 

@@ -1,4 +1,4 @@
-# 🧠 Zenalytics.ai - AI Health Analytics Platform
+# Zenalytics.ai - AI Health Analytics Platform
 
 <div align="center">
 
@@ -11,49 +11,49 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![AI Powered](https://img.shields.io/badge/AI-Powered-ff6b6b?style=for-the-badge)](https://github.com/arjunprograms/Zenalytics.ai)
 
-[🚀 Live Demo](https://zenalytics-ai.vercel.app) • [📖 Documentation](./DOCUMENTATION.md) • [🐛 Report Bug](https://github.com/arjunprograms/Zenalytics.ai/issues) • [✨ Request Feature](https://github.com/arjunprograms/Zenalytics.ai/issues)
+[Live Demo](https://zenalytics-ai.vercel.app) • [Documentation](./DOCUMENTATION.md) • [Report Bug](https://github.com/arjunprograms/Zenalytics.ai/issues) • [Request Feature](https://github.com/arjunprograms/Zenalytics.ai/issues)
 
 </div>
 
 ---
 
-## 🌟 Overview
+## Overview
 
 Zenalytics.ai is a cutting-edge health analytics platform that unifies disparate health data streams to provide a single, holistic view of your wellness. Using advanced AI algorithms, it transforms raw health numbers into actionable, personalized insights that help you understand the complex interplay between diet, exercise, sleep, and overall well-being.
 
-### 🎯 Problem We Solve
+### Problem We Solve
 
 Health-conscious individuals are drowning in data from disconnected sources:
-- 📱 Wearables tracking sleep and activity
-- 🍎 Apps logging nutrition and meals  
-- ⚖️ Smart scales monitoring weight
-- 🩺 Devices measuring blood pressure and vitals
+- Wearables tracking sleep and activity
+- Apps logging nutrition and meals  
+- Smart scales monitoring weight
+- Devices measuring blood pressure and vitals
 
 **Our solution**: AI-powered platform that connects everything and reveals hidden patterns in your health data.
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-### 🤖 AI-Powered Intelligence
+### AI-Powered Intelligence
 - **Correlation Discovery**: Find non-obvious relationships between health metrics
 - **Predictive Analytics**: Forecast health trends and potential issues
 - **Anomaly Detection**: Proactive identification of unusual patterns
 - **Natural Language Queries**: Ask questions about your health in plain English
 
-### 📊 Unified Health Dashboard
+### Unified Health Dashboard
 - **Multi-Source Integration**: Apple Health, Fitbit, Google Fit, MyFitnessPal
 - **Real-time Synchronization**: Live updates from all connected devices
 - **Interactive Visualizations**: Beautiful charts and health flow timelines
 - **Comprehensive Health Story**: See how metrics influence each other
 
-### 🔐 Privacy-First Approach
+### Privacy-First Approach
 - **Local AI Processing**: GPT4All integration for privacy-focused analysis
 - **No Data Sharing**: Your health data never leaves your device
 - **Cache-based Storage**: Fast, secure local data management
 - **End-to-end Encryption**: Enterprise-grade security
 
-### 🎨 Modern User Experience
+### Modern User Experience
 - **Glass Morphism Design**: Beautiful, modern interface
 - **Responsive Layout**: Perfect on desktop, tablet, and mobile
 - **Dark Theme**: Easy on the eyes for extended use
@@ -61,7 +61,7 @@ Health-conscious individuals are drowning in data from disconnected sources:
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - Node.js 18.0 or later
@@ -96,7 +96,7 @@ Health-conscious individuals are drowning in data from disconnected sources:
 4. **Open your browser**
    Navigate to [http://localhost:3000](http://localhost:3000)
 
-### 🎮 Try the Demo
+### Try the Demo
 
 Experience the full platform instantly with our demo mode:
 1. Visit the homepage
@@ -106,7 +106,7 @@ Experience the full platform instantly with our demo mode:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ### Tech Stack
 - **Frontend**: Next.js 14 with App Router
@@ -141,21 +141,21 @@ Zenalytics.ai/
 
 ---
 
-## 🎯 Use Cases
+## Use Cases
 
-### 🏃‍♂️ Fitness Enthusiasts
+### Fitness Enthusiasts
 - Optimize training and recovery patterns
 - Understand how sleep affects performance
 - Track correlation between nutrition and energy levels
 - Prevent overtraining with AI insights
 
-### 🧘‍♀️ Health-Conscious Individuals  
+### Health-Conscious Individuals  
 - Make informed lifestyle choices based on personal data
 - Discover hidden patterns in daily routines
 - Get personalized recommendations for better health
 - Track progress toward wellness goals
 
-### 🩺 Chronic Condition Management
+### Chronic Condition Management
 - Monitor multiple health metrics simultaneously
 - Understand correlations between symptoms and lifestyle
 - Get early warnings for potential health issues
@@ -163,7 +163,7 @@ Zenalytics.ai/
 
 ---
 
-## 🤖 AI Capabilities
+## AI Capabilities
 
 ### Correlation Analysis
 ```
@@ -191,7 +191,7 @@ by 12% based on your sweat rate analysis."
 
 ---
 
-## 📈 Example Insights
+## Example Insights
 
 The AI discovers patterns like:
 - Sleep quality impact on next-day workout performance
@@ -202,7 +202,7 @@ The AI discovers patterns like:
 
 ---
 
-## 🛠️ Development
+## Development
 
 ### Available Scripts
 - `npm run dev` - Start development server
@@ -222,24 +222,24 @@ The application works out of the box with no additional environment variables re
 
 ---
 
-## 📱 Screenshots
+## Screenshots
 
 <div align="center">
 
-### 🏠 Landing Page
+### Landing Page
 ![Landing Page](https://via.placeholder.com/800x400/1a1a1a/00d4ff?text=Beautiful+Landing+Page)
 
-### 📊 Health Dashboard
+### Health Dashboard
 ![Dashboard](https://via.placeholder.com/800x400/1a1a1a/00d4ff?text=AI+Health+Dashboard)
 
-### 🤖 AI Chat Interface
+### AI Chat Interface
 ![AI Chat](https://via.placeholder.com/800x400/1a1a1a/00d4ff?text=GPT4All+Health+Assistant)
 
 </div>
 
 ---
 
-## 🚀 Deployment
+## Deployment
 
 ### Vercel (Recommended)
 1. Push your code to GitHub
@@ -253,27 +253,27 @@ The application works out of the box with no additional environment variables re
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](./CONTRIBUTING.md) for details.
 
 ### Areas for Contribution
-- 🤖 AI model improvements
-- 📊 New visualization types
-- 🔌 Additional data source integrations
-- 🎨 UI/UX enhancements
-- 📱 Mobile app development
-- 🧪 Testing and quality assurance
+- AI model improvements
+- New visualization types
+- Additional data source integrations
+- UI/UX enhancements
+- Mobile app development
+- Testing and quality assurance
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **OpenAI** for AI capabilities inspiration
 - **Vercel** for Next.js framework
@@ -283,21 +283,21 @@ This project is licensed under the MIT License - see the [LICENSE](./LICENSE) fi
 
 ---
 
-## 📞 Support
+## Support
 
-- 📧 **Email**: support@zenalytics.ai
-- 💬 **Discord**: [Join our community](https://discord.gg/zenalytics)
-- 🐛 **Issues**: [GitHub Issues](https://github.com/arjunprograms/Zenalytics.ai/issues)
-- 📖 **Docs**: [Full Documentation](./DOCUMENTATION.md)
+- **Email**: support@zenalytics.ai
+- **Discord**: [Join our community](https://discord.gg/zenalytics)
+- **Issues**: [GitHub Issues](https://github.com/arjunprograms/Zenalytics.ai/issues)
+- **Docs**: [Full Documentation](./DOCUMENTATION.md)
 
 ---
 
 <div align="center">
 
-**Made with ❤️ by the Zenalytics Team**
+**Made with love by the Zenalytics Team**
 
-⭐ **Star this repo if you find it helpful!** ⭐
+**Star this repo if you find it helpful!**
 
-[🌟 Give us a star](https://github.com/arjunprograms/Zenalytics.ai) • [🐦 Follow us on Twitter](https://twitter.com/zenalytics) • [💼 LinkedIn](https://linkedin.com/company/zenalytics)
+[Give us a star](https://github.com/arjunprograms/Zenalytics.ai) • [Follow us on Twitter](https://twitter.com/zenalytics) • [LinkedIn](https://linkedin.com/company/zenalytics)
 
 </div>
