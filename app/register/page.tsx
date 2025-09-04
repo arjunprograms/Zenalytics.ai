@@ -79,18 +79,19 @@ export default function RegisterPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black flex items-center justify-center p-4">
-      {/* Background gradient effects */}
-      <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-transparent to-purple-500/10" />
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500/5 rounded-full blur-3xl" />
+    <div className="min-h-screen neon-gradient-bg cyber-grid flex items-center justify-center p-4">
+      {/* Enhanced neon background effects */}
+      <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-transparent to-purple-500/20" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl neon-pulse" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl neon-pulse" />
+      <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-green-500/8 rounded-full blur-2xl transform -translate-x-1/2 -translate-y-1/2" />
 
-      <Card className="relative bg-black/40 backdrop-blur-xl border border-white/10 rounded-[24px] p-8 shadow-2xl w-full max-w-md">
+      <Card className="relative glass-card-hover w-full max-w-md floating neon-border">
         <div className="text-center mb-8">
-          <div className="w-16 h-16 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-cyan-500/20 mx-auto mb-4">
-            <Sparkles className="w-8 h-8 text-cyan-400" />
+          <div className="w-16 h-16 bg-gradient-to-r from-cyan-500/20 to-purple-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-cyan-500/20 mx-auto mb-4 neon-green">
+            <Sparkles className="w-8 h-8 neon-text-green" />
           </div>
-          <h1 className="text-2xl font-bold text-white mb-2">Create Account</h1>
+          <h1 className="text-2xl font-bold neon-text-green mb-2">Create Account</h1>
           <p className="text-white/60">Join the future of health analytics</p>
         </div>
 
@@ -105,7 +106,7 @@ export default function RegisterPage() {
               placeholder="Enter your full name"
               value={name}
               onChange={(e) => setName(e.target.value)}
-              className="bg-white/5 backdrop-blur-sm border border-white/10 rounded-2xl text-white placeholder:text-white/40 h-12"
+              className="neon-input rounded-2xl text-white placeholder:text-white/40 h-12"
               required
             />
           </div>
@@ -200,7 +201,7 @@ export default function RegisterPage() {
           <Button
             type="submit"
             disabled={isLoading || !isFormValid}
-            className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white border-0 rounded-2xl h-12 font-medium disabled:opacity-50"
+            className="w-full neon-button-primary text-white rounded-2xl h-12 font-medium disabled:opacity-50"
           >
             {isLoading ? (
               <>

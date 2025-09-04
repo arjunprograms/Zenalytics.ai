@@ -34,11 +34,12 @@ export default function HomePage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-black">
-      {/* Background gradient effects */}
-      <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/10 via-transparent to-purple-500/10" />
-      <div className="absolute top-1/4 left-1/4 w-64 h-64 bg-cyan-500/5 rounded-full blur-3xl" />
-      <div className="absolute bottom-1/4 right-1/4 w-64 h-64 bg-purple-500/5 rounded-full blur-3xl" />
+    <div className="min-h-screen neon-gradient-bg cyber-grid">
+      {/* Enhanced neon background effects */}
+      <div className="absolute inset-0 bg-gradient-to-r from-cyan-500/20 via-transparent to-purple-500/20" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl neon-pulse" />
+      <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-purple-500/10 rounded-full blur-3xl neon-pulse" />
+      <div className="absolute top-1/2 left-1/2 w-64 h-64 bg-blue-500/8 rounded-full blur-2xl transform -translate-x-1/2 -translate-y-1/2" />
 
       <div className="relative z-10">
         {/* Navigation */}
@@ -76,7 +77,7 @@ export default function HomePage() {
             <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
               Transform Your Health Data Into
               <br />
-              <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+              <span className="neon-text-cyan">
                 Actionable Insights
               </span>
             </h1>
@@ -88,13 +89,13 @@ export default function HomePage() {
 
             <div className="flex items-center justify-center gap-4">
               <Link href="/register">
-                <Button className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white border-0 rounded-2xl h-12 px-8 text-lg">
+                <Button className="neon-button-primary text-white rounded-2xl h-12 px-8 text-lg">
                   Start Free Trial
                   <ArrowRight className="w-5 h-5 ml-2" />
                 </Button>
               </Link>
               <Link href="/login">
-                <Button className="bg-gradient-to-r from-purple-500/20 to-cyan-500/20 hover:from-purple-500/30 hover:to-cyan-500/30 text-white border border-purple-500/20 rounded-2xl h-12 px-8 text-lg backdrop-blur-sm">
+                <Button className="neon-button-secondary text-white rounded-2xl h-12 px-8 text-lg">
                   <Sparkles className="w-5 h-5 mr-2" />
                   Try Demo
                 </Button>
@@ -104,7 +105,7 @@ export default function HomePage() {
 
           {/* Features Grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-20">
-            <Card className="bg-black/40 backdrop-blur-xl border border-white/10 rounded-[24px] p-8 shadow-2xl">
+            <Card className="glass-card-hover p-8">
               <div className="w-16 h-16 bg-gradient-to-r from-cyan-500/20 to-blue-500/20 backdrop-blur-sm rounded-2xl flex items-center justify-center border border-cyan-500/20 mb-6">
                 <Brain className="w-8 h-8 text-cyan-400" />
               </div>
